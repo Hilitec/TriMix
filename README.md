@@ -1,6 +1,8 @@
 # TriMix
 TriMix is an ESP32 based mixer controller for Oxygen (O2) and Helium (He), with TFT display, Wifi connection and Web interface
 
+![TriMix interface](images/trimix_screen.jpg)
+
 # ⚠️ SAFETY WARNING AND DISCLAIMER
 
 ## This is not a certified device
