@@ -73,6 +73,14 @@ By using this software and building this hardware, you acknowledge that:
 
 This project is licensed under the GNU Lesser General Public License (LGPL). See LICENSE for details.
 
+# What it does:
+* Measures O₂ and He concentrations in real time (He is calculated by differential method from two O₂ sensors)
+* Controls O₂ and He valves automatically to reach your target mix
+* Displays live readings on a 3.5" TFT touchscreen with setpoints, raw sensor voltages, and calibration info
+* Provides a real-time WebSocket web interface accessible from any browser on the same WiFi network (no app required)
+* Supports OTA firmware updates
+* Stores calibration data and setpoints across reboots
+
 # Hardware
 * Microcontroller: ESP32
 * Board: ESP32 board with 4 integrated relays, like LC Technology DC5-60V 4 Channel Relay Board (ESP32_Relay_X4)
