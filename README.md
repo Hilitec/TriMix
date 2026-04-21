@@ -72,11 +72,14 @@ This project is licensed under the GNU Lesser General Public License (LGPL). See
 
 # Hardware
 * Microcontroller: ESP32
-* Board: ESP32 board with 4 integrated relays
+* Board: ESP32 board with 4 integrated relays, like LC Technology DC5-60V 4 Channel Relay Board (ESP32_Relay_X4)
 * Button: Rotary Digital Encoder Push Button (like EC11) for the setup
 * Analog converter: I2C ADS1115 4channels analog to digital converter
 * Oxygen sensor: NRC D-05
 * Display: SPI 3.5" TFT display with ST7796S controller
+
+# Pinouts
+* See TriMix_config.h and TriMix_screen.h
 
 # Technical WARNING !
 * PIN 12 must NEVER be at Vcc during boot sequence
