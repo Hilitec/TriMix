@@ -98,8 +98,8 @@ This project is licensed under the GNU Lesser General Public License (LGPL). See
 * PIN 12 must NEVER be at Vcc during boot sequence
 * ADC2 pins cannot be used when Wi-Fi is used
  
-# Board and libraries versions
-* Board : esp32 by Espressif : **2.0.17**
+# Board manager and libraries versions
+* Board manager : esp32 by Espressif : **2.0.17**
 * Partition : **Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)**
 * https://github.com/dvarrel/AsyncTCP : **1.2.4**
 * https://github.com/dvarrel/ESPAsyncWebSrv : **1.2.9**
