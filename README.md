@@ -98,6 +98,18 @@ This project is licensed under the GNU Lesser General Public License (LGPL). See
 * PIN 12 must NEVER be at Vcc during boot sequence
 * ADC2 pins cannot be used when Wi-Fi is used
  
+# Board and libraries versions
+* Board : esp32 by Espressif : **2.0.17**
+* Partition : **Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)**
+* https://github.com/dvarrel/AsyncTCP : **1.2.4**
+* https://github.com/dvarrel/ESPAsyncWebSrv : **1.2.9**
+* https://github.com/Hieromon/AutoConnect/ : **1.4.2**
+* https://microcontrollerslab.com/ads1115-external-adc-with-esp32/ : **2.6.2**
+* https://github.com/igorantolic/ai-esp32-rotary-encoder : **1.7**
+* https://github.com/Bodmer/TFT_eSPI : **2.5.43**
+* https://github.com/Bodmer/TFT_eWidget : **0.0.5**
+* https://github.com/bitbank2/PNGdec : **1.0.3**
+
  # Sponsoring
  This package is the result of a *LOT* of work. If you are happy using this package, contact us for a donation to support this project.
  
